@@ -1,0 +1,20 @@
+{
+	"name":"older-w/laravel-test",
+	"description":"it is a test from laravel",
+	"keywords":["laravel"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "coder5",
+			"email": "coder5@qq.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"OlderW\\Test\\": "src/"
+		},
+		"files": [
+			"src/helpers.php"
+		]
+	}
+}
